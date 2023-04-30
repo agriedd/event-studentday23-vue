@@ -12,7 +12,10 @@ import { Options } from "../options";
 import optionsJson from "../assets/options.json";
 const optionsData = optionsJson as Options;
 
-const emojis = [AngelIcon, CoolIcon, SadIcon, SavourFoodIcon, AngryIcon, FaceWithOpenEye, MaskIcon]
+const emojis = [
+	AngelIcon, CoolIcon, SadIcon, SavourFoodIcon, AngryIcon, 
+	FaceWithOpenEye, MaskIcon
+]
 let emoji = shallowRef(AngelIcon);
 let emojiHandler : number|null = null
 onMounted(()=>{
@@ -29,14 +32,14 @@ const options = ref(false)
 </script>
 <template>
 	<div class="relative bg-neutral-950">
-		<div class="p-4 flex justify-center items-center w-full text-white 
+		<div class="p-4 flex md:flex-row flex-col justify-center items-center w-full text-white 
 			min-h-screen absolute inset-y-0 inset-x-0 h-screen">
+			<img src="https://agriedd.github.io/studentday/assets/code.png" class="h-[80vh] w-auto rounded-md opacity-40" alt="">
 			<div>
-				<img src="https://agriedd.github.io/studentday/assets/studentday selected-08.png" class="h-[80vh] w-auto animate-pulse" alt="">
+				<img src="https://agriedd.github.io/studentday/assets/studentday selected-08.png" class="h-[80vh] w-auto blur-md" alt="">
 			</div>
 		</div>
 		<div class="relative p-4 min-h-screen bg-slate-900 bg-opacity-70 
-			backdrop-blur-lg
 			flex flex-col text-white justify-center items-center">
 			<div class="flex flex-col gap-0 items-center">
 				<img src="https://agriedd.github.io/studentday/assets/studentday selected-08.png" class="h-52 w-auto" alt="">
