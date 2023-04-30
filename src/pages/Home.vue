@@ -32,14 +32,14 @@ const options = ref(false)
 		<div class="p-4 flex justify-center items-center w-full text-white 
 			min-h-screen absolute inset-y-0 inset-x-0 h-screen">
 			<div>
-				<img src="/src/assets/studentday selected-08.png" class="h-[80vh] w-auto animate-pulse" alt="">
+				<img src="https://agriedd.github.io/studentday/assets/studentday selected-08.png" class="h-[80vh] w-auto animate-pulse" alt="">
 			</div>
 		</div>
 		<div class="relative p-4 min-h-screen bg-slate-900 bg-opacity-70 
 			backdrop-blur-lg
 			flex flex-col text-white justify-center items-center">
 			<div class="flex flex-col gap-0 items-center">
-				<img src="/src/assets/studentday selected-08.png" class="h-52 w-auto" alt="">
+				<img src="https://agriedd.github.io/studentday/assets/studentday selected-08.png" class="h-52 w-auto" alt="">
 				<h1 class="text-2xl font-black ">
 					Student Day <span class="text-yellow-300">2023</span>
 				</h1>
